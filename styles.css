@@ -1,0 +1,62 @@
+body{
+   padding: 0px;
+   margin: 0px;
+}
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    margin: 0px;
+}
+
+.navigation{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+li{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #494E50;
+}
+.main{
+    display: flex;
+}
+.content{
+    width: 70%;
+    background-color: lightgray;
+    min-height: 500px;
+    
+}
+
+.sidebar{
+    width: 30%;
+    background-color: darkgrey;
+    color: #ffffff;
+    min-height: 500px;
+    
+}
+
+.main p{
+    margin: 20px;
+}
